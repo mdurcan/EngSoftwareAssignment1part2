@@ -23,7 +23,7 @@
     
    <dependency>
 	    <groupId>com.github.mdurcan</groupId>
-	    <artifactId>EngSoftwareAssignment1</artifactId>
+	    <artifactId>EngSoftwareAssignment1Part1</artifactId>
 	    <version>a3f5c36e0c</version>
 	</dependency>
   </dependencies>
