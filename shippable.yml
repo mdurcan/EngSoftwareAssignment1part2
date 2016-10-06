@@ -3,8 +3,8 @@ language: java
 jdk:
 - openjdk7
 
-after_success:
-- mvn clean cobertura: cobertura
+after_successi:
+- mvn clean
 - mvn test
 
 notifcations:
