@@ -7,6 +7,12 @@
   <version>1</version>
   <name>College_Records_Test</name>
   <url>http://maven.apache.org</url>
+  <repositories>
+	<repository>
+		<id>jitpack.io</id>
+		<url>https://jitpack.io</url>
+	</repository>
+	</repositories>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -15,12 +21,10 @@
       <scope>test</scope>
     </dependency>
     
-    <dependency>
-    	<groupId>College.Records-1</groupId>
-    	<artifactId>College.Records-1</artifactId>
-    	<scope>system</scope>
-    	<version>1.0</version>
-    	<systemPath>${basedir}\src\lib\College.Records-1.jar</systemPath>
-    </dependency>
+   <dependency>
+	    <groupId>com.github.mdurcan</groupId>
+	    <artifactId>EngSoftwareAssignment1</artifactId>
+	    <version>a3f5c36e0c</version>
+	</dependency>
   </dependencies>
 </project>
